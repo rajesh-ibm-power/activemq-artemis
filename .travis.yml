@@ -1,8 +1,10 @@
 language: java
-install: true
 arch:
     - amd64
     - ppc64le
+    
+install: true
+
 matrix:
   include:
     - os: linux
